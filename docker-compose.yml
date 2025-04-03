@@ -1,0 +1,7 @@
+
+services:
+  bot:
+    build: .
+    volumes:
+      - ./finance_bot.db:/app/finance_bot.db
+    restart: always
